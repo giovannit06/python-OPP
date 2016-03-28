@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
         "A story of a boy and his toys that come to life",
@@ -17,7 +18,7 @@ avatar = media.Movie("Avatar",
 
 gladiator = media.Movie("Gladiator",
         "A general became a slave than defied the emperor",
-        "https://en.wikipedia.org/wiki/File:Gladiator_ver1.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/8/8d/Gladiator_ver1.jpg",
         "https://www.youtube.com/watch?v=IvTT29cavKo")
 
 #gladiator.show_trailer()
@@ -31,4 +32,8 @@ ratatouille = media.Movie("Ratatouille", "A rat is a chef in Paris",
 midnight_in_paris = media.Movie("Midnight in Paris", 
         "Going back in time to meet authors",
         "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-        "https://upload.com/watch?v=atLg2WQQxvU")
+        "https://upload.com/watch?v=FAfR8omt-CY")
+
+movies = [toy_story, avatar, gladiator, school_of_rock, ratatouille,
+        midnight_in_paris]
+fresh_tomatoes.open_movies_page(movies)
