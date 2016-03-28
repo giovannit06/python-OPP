@@ -20,4 +20,15 @@ gladiator = media.Movie("Gladiator",
         "https://en.wikipedia.org/wiki/File:Gladiator_ver1.jpg",
         "https://www.youtube.com/watch?v=IvTT29cavKo")
 
-gladiator.show_trailer()
+#gladiator.show_trailer()
+
+school_of_rock = media.Movie("School of Rock", "Using rock music to learn",
+        "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
+        "https://www.youtube.com/watch?v=3PsUJFEBC74")
+ratatouille = media.Movie("Ratatouille", "A rat is a chef in Paris",
+        "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
+        "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+midnight_in_paris = media.Movie("Midnight in Paris", 
+        "Going back in time to meet authors",
+        "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
+        "https://upload.com/watch?v=atLg2WQQxvU")
